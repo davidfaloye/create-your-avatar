@@ -13,7 +13,6 @@ $pic=$_POST['img'];
 <meta name="viewport" content="width=device-width, initial-scale=.8, maximum-scale=.8 user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Create Your Avatar</title>
- <link rel="icon" href="https://eclipse.market/assets/em_logo.png" type="image/png" sizes="35x35">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 </head> 
 
@@ -84,15 +83,15 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var img2 = document.getElementById("bckgrnd");
 
-ctx.drawImage(img2, 0,0 ,400, 273);
-ctx.drawImage(img, 16, 85, 98, 98);
+ctx.drawImage(img2, 0,0 ,400, 273);//background image to be drawn on the canvas which will be downloadable by user
+ctx.drawImage(img, 16, 85, 98, 98);//user image to be placed at a certain position 
        
 var c2 = document.getElementById("myCanvas2");
 var ctx2 = c2.getContext("2d");
 var img3 = document.getElementById("bckgrnd");
 
-ctx2.drawImage(img3, 0,0 ,1038, 720);
-ctx2.drawImage(img, 41, 226, 255, 255);
+ctx2.drawImage(img3, 0,0 ,1038, 720);//background image to be drawn on a hidden canvas 
+ctx2.drawImage(img, 41, 226, 255, 255);//user image to be placed at a certain position on the background image above 
 };
 </script>
 
