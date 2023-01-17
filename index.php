@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=.9, maximum-scale=1 user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <link rel="icon" href="https://eclipse.market/assets/em_logo.png" type="image/png" sizes="35x35">
+ <link rel="icon" href="em_logo.png" type="image/png" sizes="35x35">
 <title>Create Your Avatar</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 <link rel="stylesheet" href="css/style.css">
@@ -77,7 +77,7 @@ Create Your Avatar
 <footer class="footer has-background-white">
   <div class="content has-text-centered">
     <p>
-   &copy; Phlox, <?= date("Y") ?>
+   &copy; Avatar, <?= date("Y") ?>
     </p>
   </div>
 </footer>   
